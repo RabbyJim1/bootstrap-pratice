@@ -61,3 +61,35 @@ body {
 .cart-info:hover .cart-info-icon{
   color: var(--mainWhite);
 }
+
+/* banner style */
+.max-height{
+  min-height: calc(100vh - 117px);
+  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)), url("../img/headerBcg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner{
+  color: var(--mainWhite);
+  margin-top: -4rem;
+}
+
+.banner-title {
+  color: var(--mainPink);
+  font: -4rem;
+}
+
+.banner-link{
+  font-size: 1.5rem;
+  color: var(--mainBlack);
+  border: 0.2rem solid var(--mainBlack);
+}
+
+.banner-link:hover{
+  background: var(--mainBlack);
+  color: var(--mainPink);
+}
