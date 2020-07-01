@@ -135,3 +135,15 @@ body {
   top: 0;
   left: 0;
 }
+
+/* search box */
+.store{
+  background: var(--mainGrey);
+}
+
+.search-box{
+  background: var(--mainPink);
+  color: var(--mainBlack);
+}
+
+/*  */
